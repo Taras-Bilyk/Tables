@@ -14,12 +14,18 @@ td{
     border-color: #c0c1c2;
 }
 .table{
-    border-color: #fff;
+    border: 0;
     width: 100%;
 }
 td{
+    border: 1px solid #c0c1c2;
+    border-bottom: 0;
+    border-left: 0;
     padding: 15px 20px;
     font-family: "Arial";
+}
+td:last-child{
+    border-right: 0;
 }
 .tbody>tr>td{
     background-color: #f2f2f2;
@@ -83,13 +89,11 @@ td{
     padding: 18px 20px;
     border: 1px solid #c0c1c2;
     border-bottom: 0;
+    border-left: 0;
 }
 .head_of_table>.header_of_table_p{
     border: 1px solid #3f4852;
     border-bottom: 0;
-}
-.row p:nth-child(1){
-    border-left: 0;
 }
 .row p:last-child{
     border-right: 0;
@@ -100,4 +104,13 @@ td{
 .row>.p,
 .header_of_table_p{
     width: 100px;
+}
+.style_table{
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.table_table{
+    border-radius: 3px;
+    overflow: hidden;
 }
