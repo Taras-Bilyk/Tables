@@ -82,9 +82,17 @@ td{
     margin: 0;
     padding: 18px 20px;
     border: 1px solid #c0c1c2;
+    border-bottom: 0;
 }
 .head_of_table>.header_of_table_p{
     border: 1px solid #3f4852;
+    border-bottom: 0;
+}
+.row p:nth-child(1){
+    border-left: 0;
+}
+.row p:last-child{
+    border-right: 0;
 }
 .row p:nth-child(2){
     width: 100%;
