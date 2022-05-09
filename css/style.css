@@ -19,10 +19,6 @@ td{
     padding-left: 0;
     margin: 0;
     background-color: #2a3644;
-    height: 45px;
-}
-.navigation_li{
-    padding-top: 13px;
 }
 .navigation_a{
     text-decoration: none;
@@ -34,6 +30,7 @@ td{
     border-top: 0;
     border-bottom: 0;
     padding: 12.5px 30px;
+    display: block;
 }
 .navigation_a:hover{
     background-color: #3f4852;
@@ -50,21 +47,24 @@ td{
     border-right: 0;
 }
 .nav2 a{
-    padding: 12.3px 43px;
+    padding: 12.3px 43.3px;
     border-left: 0;
 }
 .nav2 li:last-child a{
     border-right: 0;
+}
+.submenu>li>a{
+    background-color: #d2d4d5;
 }
 .nav3 ul,
 .nav2 ul{
     justify-content: start;
 }
 .navigation .submenu{
-    background-color: #d2d4d5;
-    margin-top: 12px;
+    margin-top: 0;
     display: none;
     position: absolute;
+    padding-top: 5px;
 }
 .navigation .submenu li{
     display: block;
@@ -126,12 +126,6 @@ td{
 .navigation .s6 a:hover{
     background-color: #2a3644;
 }
-
-
-/* .navigation_li_s:hover{
-    padding-top: 0;
-    background-color: #000;
-} */
 .s6{
     position: absolute;
     left: 200px;
