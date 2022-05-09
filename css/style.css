@@ -78,6 +78,7 @@ td{
     display: block;
     border-top: 1px solid #b9bdc1;
     padding: 12.5px 20px;
+    background-color: #d2d4d5;
 }
 .navigation .submenu_2 a{
     font-size: 15px;
@@ -130,17 +131,18 @@ td{
     position: absolute;
     left: 200px;
     top: 1px;
-    background-color: #d2d4d5;
-    padding-left: 0;
+    /* background-color: #d2d4d5; */
+    padding-left: 5px;
     width: 200px;
 }
 .s7{
     position: absolute;
     right: 200px;
     top: 1px;
-    background-color: #d2d4d5;
+    /* background-color: #d2d4d5; */
     padding-left: 0;
     width: 200px;
+    padding-right: 5px;
 }
 .navigation_a_s{
     border-right: 0;
