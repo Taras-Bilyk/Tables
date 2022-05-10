@@ -180,30 +180,30 @@ td{
     background-color: #d2d4d5;
     border-radius: 3px;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
-.k .flex .border{
-    border: #2a3644;
-}
-.submenu_flex a{
+.wrapper .submenu_flex a{
     width: 180px;
-}
-.navigation .flex li:first-child>a{
+    border: 0;
     border-bottom: 1px solid #b9bdc1;
     border-right: 1px solid #b9bdc1;
+    padding: 13px 19.5px;
 }
-.navigation .flex li:last-child>a{
+.wrapper .submenu_flex li:first-child a{
+    border: 0;
+    border-right: 1px solid #b9bdc1;
     border-bottom: 1px solid #b9bdc1;
 }
-.submenu_flex .flex li a{
-    border: 0;
-}
-.navigation .submenu .border2 a{
+.wrapper .submenu_flex li:nth-child(7) a{
     border-bottom: 0;
 }
-.navigation .border a{
-    border: 1px solid #b9bdc1;
-    border-top: 0;
-    border-left: 0;
+.wrapper .submenu_flex li:nth-child(3) a{
+}
+.wrapper .submenu_flex li:nth-child(2) a,
+.wrapper .submenu_flex li:nth-child(4) a,
+.wrapper .submenu_flex li:nth-child(6) a{
+    border-right: 0;
 }
 .golovna:before{
     content: "";
