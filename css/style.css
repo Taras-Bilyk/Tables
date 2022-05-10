@@ -5,6 +5,11 @@ h2{
     color: #bfbfbf;
     font-weight: bold;
     font-family: "Arial";
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+h2:first-child{
+    margin-top: 30px;
 }
 th{
     border: 1px solid #3f4852;
@@ -20,6 +25,10 @@ td{
     margin: 0;
     background-color: #2a3644;
     border-radius: 3px;
+    margin-bottom: 26px;
+}
+.navigation:last-child{
+    margin-bottom: 0;
 }
 .navigation_a{
     text-decoration: none;
@@ -30,7 +39,7 @@ td{
     border: 1px solid #3f4852;
     border-top: 0;
     border-bottom: 0;
-    padding: 12.5px 30px;
+    padding: 13px 30px;
     display: block;
 }
 .navigation_li:first-child>a{
@@ -54,7 +63,7 @@ td{
     border-right: 0;
 }
 .nav2 a{
-    padding: 12.3px 43.3px;
+    padding: 13px 43.3px;
     border-left: 0;
 }
 .nav2 li:last-child a{
@@ -84,7 +93,7 @@ td{
     text-decoration: none;
     display: block;
     border-top: 1px solid #b9bdc1;
-    padding: 12.5px 20px;
+    padding: 13px 20px;
     background-color: #d2d4d5;
 }
 .navigation .submenu>li:first-child>a,
@@ -250,7 +259,7 @@ td{
     border: 1px solid #c0c1c2;
     border-bottom: 0;
     border-left: 0;
-    padding: 15px 20px;
+    padding: 13px 20px;
     font-family: "Arial";
 }
 td:last-child{
@@ -308,10 +317,10 @@ td{
     font-family: "Arial";
 }
 .years{
-    padding: 15px 45px;
+    padding: 13px 45px;
 }
 .results{
-    padding: 18px 0;
+    padding: 13px 0;
 }
 .row{
     display: flex;
@@ -332,7 +341,7 @@ td{
 .row p{
     font-family: "Arial";
     margin: 0;
-    padding: 15px 20px;
+    padding: 13px 20px;
     border: 1px solid #c0c1c2;
     border-bottom: 0;
     border-left: 0;
@@ -373,7 +382,7 @@ td{
     overflow: hidden;
 }
 .row>p:first-child{
-    padding: 15px 20px;
+    padding: 13px 20px;
     width: 50px;
     text-align: center;
 }
